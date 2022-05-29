@@ -131,21 +131,21 @@ sitewide_privacy_statement = Off
 
 [database]
 
-driver = postgres
+driver = mysqli
 host = localhost
-username = tcvycwqnghlbld
-password = 86e393d5b65a6c3242463f3524ca5f84467be189e6eccb3b17cbd74f7f7c516c
-name = d8qb40n1p8ge9m
+username = ojs
+password = ojs
+name = ojs
 
 ; Set the non-standard port and/or socket, if used
-; port = 5432
+; port = 3306
 ; unix_socket = /var/run/mysqld/mysqld.sock
 
 ; Database collation
 ; collation = utf8_general_ci
 
 ; Enable database debug output (very verbose!)
-debug = On
+debug = Off
 
 ;;;;;;;;;;;;;;;;;;
 ; Cache Settings ;

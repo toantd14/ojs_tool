@@ -2,11 +2,5 @@
   "require": {
     "php": "^7.3.3",
     "ext-mbstring": "*"
-  },
-  "scripts": {
-    "compile": [
-      "chmod 777 cache/t_cache/",
-      "chmod 777 cache/_db/"
-    ]
   }
 }

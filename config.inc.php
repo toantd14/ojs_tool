@@ -131,7 +131,7 @@ sitewide_privacy_statement = Off
 
 [database]
 
-driver = postgres
+driver = mysqli
 host = ec2-54-204-56-171.compute-1.amazonaws.com
 username = tcvycwqnghlbld
 password = 86e393d5b65a6c3242463f3524ca5f84467be189e6eccb3b17cbd74f7f7c516c

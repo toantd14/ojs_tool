@@ -6,7 +6,7 @@
   "scripts": {
     "compile": [
       "chmod -R 777 cache/t_cache/",
-      "chmod -R 777 cache/_db/",
+      "chmod -R 777 cache/_db/"
     ]
   }
 }

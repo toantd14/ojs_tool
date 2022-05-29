@@ -133,7 +133,7 @@ sitewide_privacy_statement = Off
 
 driver = postgres
 host = localhost
-username = tcvycwqnghlbld1
+username = tcvycwqnghlbld
 password = 86e393d5b65a6c3242463f3524ca5f84467be189e6eccb3b17cbd74f7f7c516c
 name = d8qb40n1p8ge9m
 

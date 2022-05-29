@@ -145,7 +145,7 @@ port = 5432
 ; collation = utf8_general_ci
 
 ; Enable database debug output (very verbose!)
-debug = Off
+debug = On
 
 ;;;;;;;;;;;;;;;;;;
 ; Cache Settings ;

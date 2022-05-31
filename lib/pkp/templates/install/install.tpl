@@ -140,7 +140,7 @@
 					{fbvElement type="text" id="databaseUsername" value=$databaseUsername maxlength="60" size=$fbvStyles.size.MEDIUM}
 				{/fbvFormSection}
 				{fbvFormSection label="installer.databasePassword"}
-					{fbvElement type="text" id="databasePassword" value=$databasePassword maxlength="60" size=$fbvStyles.size.MEDIUM}
+					{fbvElement type="text" id="databasePassword" value=$databasePassword maxlength="160" size=$fbvStyles.size.MEDIUM}
 				{/fbvFormSection}
 				{fbvFormSection label="installer.databaseName"}
 					{fbvElement type="text" id="databaseName" value=$databaseName maxlength="60" size=$fbvStyles.size.MEDIUM}

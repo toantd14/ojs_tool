@@ -440,7 +440,7 @@ $_block_repeat=true;
 echo $_block_plugin18->smartyFBVFormSection(array('label'=>"installer.databasePassword"), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
-					<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['fbvElement'][0], array( array('type'=>"text",'id'=>"databasePassword",'value'=>$_smarty_tpl->tpl_vars['databasePassword']->value,'maxlength'=>"60",'size'=>$_smarty_tpl->tpl_vars['fbvStyles']->value['size']['MEDIUM']),$_smarty_tpl ) );?>
+					<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['fbvElement'][0], array( array('type'=>"text",'id'=>"databasePassword",'value'=>$_smarty_tpl->tpl_vars['databasePassword']->value,'maxlength'=>"160",'size'=>$_smarty_tpl->tpl_vars['fbvStyles']->value['size']['MEDIUM']),$_smarty_tpl ) );?>
 
 				<?php $_block_repeat=false;
 echo $_block_plugin18->smartyFBVFormSection(array('label'=>"installer.databasePassword"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
